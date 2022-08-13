@@ -146,10 +146,9 @@ h1:hover {
 
 .attribution {
     color: silver;
-
     bottom: 0;
     position: absolute;
-    margin: 5px 0; 
+    margin: 7px 0; 
 }
 
 .attribution a {
