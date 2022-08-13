@@ -115,7 +115,7 @@ p:last-child {
     position: absolute;
     inset: 0;
     margin: auto;
-    transform: translateY(-200%);
+    transform: translateY(-225%);
     z-index: -1;
 }
 
