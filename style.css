@@ -149,7 +149,7 @@ h1:hover {
 
     bottom: 0;
     position: absolute;
-    margin-bottom: 5px;
+    margin: 5px 0; 
 }
 
 .attribution a {
