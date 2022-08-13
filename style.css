@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+
+
+
+}
+
+/* ************************DIVS************************ */
+.card-container {
+
+    padding: 22px;
+    background-color: hsl(216, 50%, 16%);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: clamp(300px, 10%, 10%);
+    border-radius: 0.7rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.image-container {
+    background: RGBA(0, 255, 247, 0.7);
+    border-radius: 0.8rem;
+}
+
+.price-deadline-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+footer {
+    padding-bottom: 10px;
+}
+
+
+/* *********************IMAGES*********************** */
+
+.nft-image {
+    max-width: 100%;
+    height: inherit;
+    border-radius: 0.7rem;
+    margin-bottom: -5px;
+}
+
+.avatar {
+    max-width: 10%;
+    border: 1px white solid;
+    border-radius: 50%;
+    transform: translate(-10%, 30%);
+    margin-right: 10px;
+}
+
+/* **********************TEXT************************* */
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+.p1 {
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+}
+
+.card-content p,
+.deadline {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.deadline {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.artist {
+    color: hsl(0, 0%, 100%);
+}
+
+.nft-price {
+    color: hsl(178, 100%, 50%);
+    font-size: 0.9rem;
+}
+
+
+hr {
+    border: none;
+    height: 1px;
+    background: hsl(215, 51%, 70%);
+}
+
+
+p:last-child {
+    display: inline;
+}
+
+
+/* ************************SVG'S************************* */
+
+.clock,
+.eth {
+    transform: translate(-50%, 20%)
+}
+
+.view {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    transform: translateY(-200%);
+    z-index: -1;
+}
+
+/* *********************HOVER EFFECTS********************* */
+
+
+.artist:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%)
+}
+
+h1:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%)
+}
+
+.nft-image:hover {
+    cursor: pointer;
+    mix-blend-mode: soft-light;
+}
+
+.image-container:hover {
+    z-index: 0;
+}
+
+
+/* ******************END****************** */
+
+.attribution {
+    color: silver;
+
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 5px;
+}
+
+.attribution a {
+    color: pink;
+    text-decoration: none;
+}
